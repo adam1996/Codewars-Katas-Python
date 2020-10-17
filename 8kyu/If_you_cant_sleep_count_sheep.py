@@ -10,8 +10,8 @@ Given a non-negative integer, 3 for example, return a string with a murmur: "1 s
 
 
 """
-def count_sheep(n):
-    sheeps = 
+#def count_sheep(n):
+   # sheeps =
 
 
-print(count_sheep(10))
+#print(count_sheep(10))
