@@ -28,7 +28,7 @@ def first_non_consecutive(arr):
     prev = -999999
 
     for val in arr:
-        if prev == -999999 or val == (prev+1):
+        if prev == -999999 or val == (prev + 1):
             prev = val
         else:
             return val
