@@ -8,11 +8,14 @@ You will be given a vector of strings. You must sort it alphabetically (case-sen
 The returned value must be a string, and have "***" between each of its letters.
 
 You should not remove or add elements from/to the array.
+
+def two_sort(array):
+    return '***'.join(min(array))
 '''
 
 def two_sort(array):
 
-    return "***".join([i for i in (sorted(array)[0])])
+    return '***'.join(sorted(array)[0])
 
 
 print(two_sort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]))
