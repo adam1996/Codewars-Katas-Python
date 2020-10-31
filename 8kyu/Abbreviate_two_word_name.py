@@ -9,8 +9,6 @@ Write a function to convert a name into initials. This kata strictly takes two w
 + Patrick Feeney => P.F
 
 '''
-
-
 def abbrev_name(name):
     # return '.'.join([x for x in name if x.isupper()])
     # join() method takes an iterable, in this case the array of upper case initlas from name, and joins them to a sep ('.')
