@@ -21,4 +21,12 @@ Output will consist of a list of string values (in Haskell: Open or Senior) stat
 
 Example Output
 ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+
+https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/solutions/python
+
+Tuple unpacking
 """
+def open_or_senior(data):
+    return ["Senior" if data[0] >= 55 and data[1] > 7 else "Open" for data in data]
+
+print(open_or_senior([(45, 12),(55,21),(19, -2),(104, 20)]))
