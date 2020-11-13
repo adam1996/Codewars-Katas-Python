@@ -8,7 +8,7 @@ The two arrays are not empty and are the same length. Return the score for this 
 
 If the score < 0, return 0.
 aaa
-For example:
+For example:llll
 
 checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"]) → 6
 checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]) → 7
