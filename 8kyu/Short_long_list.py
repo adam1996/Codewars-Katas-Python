@@ -9,16 +9,15 @@ For example:
 solution("1", "22") # returns "1221"
 solution("22", "1") # returns "1221"
 
+def solution(a, b):
+    return a+b+a if len(a)<len(b) else b+a+b
+    
 """
 
 def solution(a, b):
-    print("Hello")
     input_lst = [a, b]
     input_lst.sort(key=len, reverse=False) 
     return input_lst[0] + input_lst[1] + input_lst[0]
 
-    #get the len of a and b 
-
 
 print(solution("Adam", "Johnson"))
-print("Hello")
