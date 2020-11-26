@@ -15,7 +15,6 @@ Floats are considered UNeven for this kata.
 """
 
 def is_even(n): 
-    print(type(n))
     return isinstance(n, int) and  n % 2 == 0 
 
 print(is_even(2))
